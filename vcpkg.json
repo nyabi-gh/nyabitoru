@@ -1,0 +1,11 @@
+{
+  "name": "nyabi-k",
+  "version": "0.1.0",
+  "dependencies": [
+    {
+      "name": "opencv",
+      "features": ["dnn"]
+    },
+    "onnxruntime"
+  ]
+}

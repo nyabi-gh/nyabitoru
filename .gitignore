@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# C++
+build/
+
+# Models
+models/
+
+# IDEs
+.vscode/
+.idea/

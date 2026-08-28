@@ -26,8 +26,8 @@ endif ()
 if (WIN32)
     add_custom_command(TARGET nyabitoru POST_BUILD
             COMMAND ${CMAKE_COMMAND} -E copy_if_different
-            $<TARGET_RUNTIME_DLLS:nyabi-k>
-            $<TARGET_FILE_DIR:nyabi-k>
+            $<TARGET_RUNTIME_DLLS:nyabitoru>
+            $<TARGET_FILE_DIR:nyabitoru>
             COMMAND_EXPAND_LISTS
     )
 endif ()

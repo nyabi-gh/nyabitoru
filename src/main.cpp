@@ -1,9 +1,14 @@
 #include <onnxruntime_cxx_api.h>
 #include <opencv2/opencv.hpp>
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello, world!" << std::endl;
+    if (argc < 3)
+    {
+        std::cerr << "사용 방법: " << argv[0] << " <model.onnx> <image.jpg>\n";
 
+        return 1;
+    }
+    
     return 0;
 }

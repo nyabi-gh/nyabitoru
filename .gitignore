@@ -18,6 +18,7 @@ vcpkg_installed/
 
 # Build artifacts
 /nyabitoru
+build.bat
 
 # Models
 models/
